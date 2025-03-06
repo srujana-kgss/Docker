@@ -1,5 +1,5 @@
-Prerequisites : chocolatey,DockerDesktop
-
+Prerequisites : chocolatey,DockerDesktop 
+(Currently works on windows)
 Build and run using Docker Commands:
 ```
 docker build -t newimage . 
