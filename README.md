@@ -1,3 +1,5 @@
+Prerequisites : chocolatey,DockerDesktop
+
 Build and run using Docker Commands:
 ```
 docker build -t newimage . 
@@ -11,3 +13,8 @@ Build and run using Makefile:
 make run_website
 ```
 Open `http://localhost:8000` in your browser.
+
+Install Kind:
+```
+make install_kind
+```
