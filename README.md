@@ -18,3 +18,7 @@ Install Kind:
 ```
 make install_kind
 ```
+create Cluster
+```
+kind create cluster —name docker
+```
